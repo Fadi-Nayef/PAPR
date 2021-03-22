@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(217, 206, 236);
+    margin: 0%;
+}
+header{
+    color:rgb(252, 117, 144);
+    background-color: crimson;
+    height: 5%;
+
+}
+header h1 {
+    color: darkblue;
+}
+#first ul li{
+    display:inline-block;
+    
+}
