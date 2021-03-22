@@ -1,69 +1,40 @@
 
 
-var agree = prompt("would you rate us please, type ok ?");
-var stars = prompt('how many stars do you give us?');
+var emploies=prompt('how many employer do you have');
 
-var rate = '';
-var result = '';
 
-if (agree == 'ok') 
-{
-    rate = '<img src="javafiles/pictures/stars.png"/> </br>';
+if (emploies >=10 && emploies<=20){
+    alert('you welcome');}
+        else if (emploies <10 || emploies>20)
+
+            {
+            alert('sorry your capacity dosent match')
+        }
+    for(var i=0 ; i<5 ; i++ ){
+
+    }
+
     
-    console.log(stars);
+var mask = prompt("which mask is better full face or half face?");
+ while (mask !=='half' && mask!=='full'){
+     mask=prompt('please write full or half only');
 
-for (var i = 0; i < stars; i++) {
-    result += rate;
+ }
+
+
+var numberOfShows=prompt('how many resp you need?');
+
+var choosen='';
+
+for(var i=0 ; i<numberOfShows ; i++){
+
+    if (mask == 'full') {
+        choosen +='<img src="javafiles/6800_4.jpg"/></br>';
+    } else if (mask =='half') {
+        choosen +='<img src="javafiles/6200.jpg"/></br>';
+    } else {
+        alert('you need to type full or half ');
+    }
 }
+document.write(choosen);
 
-} 
-
-else if (agree !== 'ok') {
-    alert('you have to agree the rating first');
-}
-
-
-console.log(result);
-
-document.write(result);
-
-
-/* var agree= prompt("Type yes if you are the manager")
-var employers= prompt("how many employers do you have")
-
-console.log('agree')
-
-if (agree=='yes')
-{
-
-console.log(employers);
-
-if  (employers<='18')
-{
-    alert('you are welcome')
-
-} 
-
-{ // alert("sorry you are not allowed to continue")
-}
-}
-else 
-{ 
-   document.write('<img src="https://cdn11.bigcommerce.com/s-10c6f/images/stencil/1280x1280/products/28884/47952/LS34488-46__20300.1571947505.jpg?c=2"/>');}
-*/
- 
-    //(agree==true , employers==true) 
-  //  alert('you are welcome')
-
-     //(employers==false);
-
-
- 
-   // alert('you are welcome')
- 
- 
- //document.images(<img> src="pictures/davinci.jfif"</img>)}
-//var img=("https://cdn11.bigcommerce.com/s-10c6f/images/stencil/1280x1280/products/28884/47952/LS34488-46__20300.1571947505.jpg?c=2"+img);
-
-//img.src ='https//.bigcommerce.com/s-10c6f/images/stencil/1280x1280/products/28884/47952/LS34488-46__20300.1571947505.jpg?c=2';
-//alert('img');}
